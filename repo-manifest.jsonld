@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/joerick/pyinstrument/commit/c5a518ca90548c153cf4e9e19fb56d32ad1d6fac",
       "git:hexsha": "c5a518ca90548c153cf4e9e19fb56d32ad1d6fac",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/joerick/pyinstrument/commit/09a70a7727690970ba8138ad3a8954d0363bcee5",
