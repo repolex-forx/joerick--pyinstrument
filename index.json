@@ -3,6 +3,11 @@
   "repo": "pyinstrument",
   "versions": [
     {
+      "commit": "5d4c82a71365e86b2c081d9baf091810e1e76aea",
+      "tag": "v5.1.2",
+      "parsed_at": "2026-11-22T03:13:34.645841+00:00"
+    },
+    {
       "commit": "c5a518ca90548c153cf4e9e19fb56d32ad1d6fac",
       "tag": "",
       "parsed_at": "2026-11-02T20:53:55.561212+00:00"
