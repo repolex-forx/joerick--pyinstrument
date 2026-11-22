@@ -1,0 +1,39 @@
+[2026-11-22T02:05:21Z] === ENRICH ITERATION 1 START | repo=joerick/pyinstrument sha=5d4c82a7 ===
+[2026-11-22T02:05:21Z] [iter=1] PHASE START: enrich repo=joerick/pyinstrument sha=5d4c82a7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5d4c82a7-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5d4c82a71365e86b2c081d9baf091810e1e76aea.nq.gz
+[2026-11-22T02:05:21Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T02:05:35Z] [iter=1] AST store loaded triples=1763619 load_secs=13 mem_mb=956 MB
+[2026-11-22T02:05:35Z] [iter=1] Step 2: Finding LSP targets mem_mb=956 MB
+[2026-11-22T02:05:36Z] [iter=1] LSP targets found call_sites=6750 imports=502 extends=49 implements=0 secs=2
+[2026-11-22T02:05:37Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=956 MB
+[2026-11-22T02:05:47Z] [iter=1] Position index built positions=120503 nodes_with_types=133333 secs=10 mem_mb=956 MB
+[2026-11-22T02:05:47Z] [iter=1] Step 3: Starting LSP resolution mem_mb=956 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T02:05:47Z] [iter=1] Resolving target type target_type=call_site count=6750
+[2026-11-22T02:23:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.1 files_done=1 resolved=1746 errors=0 current=pyinstrument/renderers/html_resources/app.js
+[2026-11-22T02:39:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.5 files_done=2 resolved=3357 errors=0 current=html_renderer/svelte.config.js
+[2026-11-22T02:40:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.2 files_done=6 resolved=3538 errors=0 current=pyinstrument/magic/magic.py
+[2026-11-22T02:41:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.5 files_done=8 resolved=3685 errors=0 current=pyinstrument/__main__.py
+[2026-11-22T02:42:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.3 files_done=10 resolved=3829 errors=0 current=examples/async_experiment_3.py
+[2026-11-22T02:43:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.6 files_done=15 resolved=4014 errors=0 current=metrics/overflow.py
+[2026-11-22T02:44:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.6 files_done=19 resolved=4149 errors=0 current=pyinstrument/util.py
+[2026-11-22T02:45:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.1 files_done=24 resolved=4305 errors=0 current=test/test_renderers.py
+[2026-11-22T02:46:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.8 files_done=28 resolved=4442 errors=0 current=examples/async_experiment_1.py
+[2026-11-22T02:46:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.4 files_done=32 resolved=4556 errors=0 current=pyinstrument/renderers/base.py
+[2026-11-22T02:47:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.9 files_done=38 resolved=4697 errors=0 current=metrics/interrupt.py
+[2026-11-22T02:47:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.5 files_done=45 resolved=4791 errors=0 current=noxfile.py
+[2026-11-22T02:48:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.0 files_done=52 resolved=4895 errors=0 current=test/low_level/test_frame_info.py
+[2026-11-22T02:48:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.6 files_done=58 resolved=4983 errors=0 current=examples/demo_scripts/django_example/manage.py
+[2026-11-22T02:49:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.2 files_done=66 resolved=5083 errors=0 current=examples/demo_scripts/django_example/django_example/views.py
+[2026-11-22T02:50:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=84 resolved=5175 errors=0 current=.devcontainer/reinstall-cmake.sh
+[2026-11-22T02:50:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.4 files_done=87 resolved=5315 errors=0 current=html_renderer/src/lib/model/processors.ts
+[2026-11-22T02:51:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.0 files_done=89 resolved=5391 errors=0 current=html_renderer/src/lib/model/Frame.ts
+[2026-11-22T02:51:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.5 files_done=95 resolved=5544 errors=0 current=html_renderer/src/lib/settings.ts
+[2026-11-22T02:52:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=47.6 files_done=103 resolved=5632 errors=0 current=pyinstrument/low_level/pyi_floatclock.c
+[2026-11-22T02:53:13Z] [iter=1] Target type resolved target_type=call_site resolved=5657 errors=0 secs=2846 mem_mb=956 MB
+[2026-11-22T02:53:13Z] [iter=1] Resolving target type target_type=import_statement count=502
+[2026-11-22T02:53:23Z] [iter=1] Target type resolved target_type=import_statement resolved=436 errors=0 secs=10 mem_mb=956 MB
+[2026-11-22T02:53:23Z] [iter=1] Resolving target type target_type=extends_clause count=49
+[2026-11-22T02:53:26Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=48.1 files_done=3 resolved=26 errors=0 current=pyinstrument/renderers/console.py
+[2026-11-22T02:53:28Z] [iter=1] Target type resolved target_type=extends_clause resolved=47 errors=0 secs=5 mem_mb=956 MB
+[2026-11-22T03:10:23Z] [iter=1] Step 5: Writing final enrichment file triples=255097
+[2026-11-22T03:10:26Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5d4c82a71365e86b2c081d9baf091810e1e76aea.nq.gz size_kb=4512
+[2026-11-22T03:10:26Z] [iter=1] PHASE END: enrich elapsed_s=3905 elapsed_min=65.1 total_triples=255097
